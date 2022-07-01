@@ -81,3 +81,14 @@ for(nombre in nombres){
   
  
 
+#5 punto
+# Solución:
+mi_funcion <- function(a=2) {
+  b=3
+  x<-a^b
+  
+
+  return(x)
+}
+
+respuesta <- mi_funcion(4)
