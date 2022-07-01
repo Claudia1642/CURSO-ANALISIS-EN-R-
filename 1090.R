@@ -66,6 +66,13 @@ lista_1 <- list(18,TRUE,"Fernando",10:30)
     
   }
    
+#4 punto
+nombres <- c("Andrea", "Carlos", "Juan", "Carolina", "Fernando", "Laura")
+#solucion 
+for(nombre in nombres){
+  print(paste("bienvenido")) 
+  }
+
   
  
 
