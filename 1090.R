@@ -66,6 +66,12 @@ lista_1 <- list(18,TRUE,"Fernando",10:30)
     
   }
   
+ if (numero4%%4==0) {
+    print("numero par") 
+  } else if (numero4%%4>0) {
+    print("numero impar") 
+    
+  }
 #4 punto
 nombres <- c("Andrea", "Carlos", "Juan", "Carolina", "Fernando", "Laura")
 #solucion 
