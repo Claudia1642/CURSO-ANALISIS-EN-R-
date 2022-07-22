@@ -39,8 +39,8 @@ lista_1 <- list(18,TRUE,"Fernando",10:30)
   matriz [,2, drop = FALSE] # Identifica los resultados de la misma forma de la matriz
  
   #b. La tercera fila únicamente.
-  matriz [,3] # Identifca los resultados en el vector.
-  matriz [,3, drop = FALSE] # Identifica los resultados de la misma forma de la matriz
+  matriz [3,] # Identifca los resultados en el vector.
+  matriz [3, , drop = FALSE] # Identifica los resultados de la misma forma de la matriz
   
   #c. De la fila 3 a la fila 7.
   # se mantiene de la forma 
@@ -59,19 +59,24 @@ lista_1 <- list(18,TRUE,"Fernando",10:30)
   
   # Respuesta:
   
-  if (numero%%4==0) {
+  if (numero%%2==0) {
     print("numero par") 
-  } else if (numero%%4>0) {
+  } else if (numero%%2>0) {
     print("numero impar") 
-    
-  }
+    }
+
+ #por ejemplo  
+  numero2 <- 20 
+   
   
- if (numero4%%4==0) {
+ if (numero2%%2==0) {
     print("numero par") 
-  } else if (numero4%%4>0) {
+  } else if (numero2%%2>0) {
     print("numero impar") 
     
   }
+
+
 #4 punto
 nombres <- c("Andrea", "Carlos", "Juan", "Carolina", "Fernando", "Laura")
 #solucion 
